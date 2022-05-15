@@ -1,0 +1,352 @@
+#myDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  padding: 20px 16px 20px 16px;
+}
+
+#myDropdown a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#myDropdown a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#myDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#myDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#myDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*Countries*/
+#myDropdown2 {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  padding: 20px 16px 20px 16px;
+}
+
+#myDropdown2 a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#myDropdown2 a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#myDropdown2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#myDropdown2::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#myDropdown2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+
+/*   Styling for cities*/
+
+#cityDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px 16px 20px 16px;
+}
+
+#cityDropdown a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#cityDropdown a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#cityDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#cityDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#cityDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for cities*/
+
+/*   Styling for cities 2*/
+
+#cityDropdown2 {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px 16px 20px 16px;
+}
+
+#cityDropdown2 a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#cityDropdown2 a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#cityDropdown2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#cityDropdown2::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#cityDropdown2::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+
+/*   Styling for States*/
+
+#stateDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px 16px 20px 16px;
+}
+
+#stateDropdown a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#stateDropdown a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#stateDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#stateDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#stateDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for Sates*/
+
+/*   Styling for Lang*/
+
+#langDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 20px 16px 20px 16px;
+}
+
+#langDropdown a {
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#langDropdown a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#langDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#langDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#langDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for Lang*/
+
+/*   Styling for Len*/
+
+#lenDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 8px 4px 8px 4px;
+}
+
+#lenDropdown a {
+  font-size: 14px;
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#lenDropdown a:hover {
+  background-color: #dbeafe;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#lenDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#lenDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#lenDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for Len*/
+
+/*   Styling for Weight*/
+
+#weightDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 4px 8px 8px 4px;
+}
+
+#weightDropdown a {
+  font-size: 14px;
+
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#weightDropdown a:hover {
+  background-color: #dbeafe;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#weightDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#weightDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#weightDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for Weight*/
+
+/*   Styling for Weight*/
+
+#tempDropdown {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.06),
+    0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 4px 4px 4px 4px;
+}
+
+#tempDropdown a {
+  font-size: 14px;
+
+  padding: 8px 0 8px 16px;
+  cursor: pointer;
+}
+
+#tempDropdown a:hover {
+  background-color: #dbeafe;
+  font-weight: 500;
+  border-radius: 4px;
+  color: #1d4ed8;
+}
+
+/* Scroll bar */
+#tempDropdown::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(241, 241, 241, 0.3);
+  border-radius: 10px;
+  background-color: #dbeafe;
+}
+
+#tempDropdown::-webkit-scrollbar {
+  width: 6px;
+  background-color: #dbeafe;
+}
+
+#tempDropdown::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #dbeafe;
+}
+/*   Styling for Weight*/

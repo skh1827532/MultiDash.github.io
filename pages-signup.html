@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Moda Sign In</title>
+  </head>
+
+  <body>
+    <div class="flex justify-center sm:pt-10 sm:pb-10 bg-slate-50">
+      <div
+        class="p-6 sm:p-12 pb-6 max-w-[547px] shadow rounded w-full bg-white"
+      >
+        <div class="mx-auto head-logo">
+          <img
+            src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20811988.png"
+            alt=""
+            class="mx-auto"
+          />
+          <p
+            class="pt-6 text-2xl font-semibold leading-6 text-center text-slate-800"
+          >
+            Sign Up Now
+          </p>
+          <p class="mt-4 text-sm leading-none text-center text-slate-600">
+            Already have an account? Click here
+            <a
+              href="pages-login.html"
+              class="text-blue-700 border-b border-blue-700 border-dashed"
+            >
+              Click here</a
+            >
+            to Sign In
+          </p>
+        </div>
+        <div class="mt-8 input-group">
+          <p class="text-base font-medium leading-none text-slate-800">Email</p>
+          <input
+            type="text"
+            name=""
+            id=""
+            class="w-full p-4 mt-2 border rounded outline-none placeholder:text-base placeholder:text-slate-600 focus:bg-gray-50 border-slate-300"
+            placeholder="Hoyt_Blick@mail.com"
+          />
+        </div>
+        <div class="mt-6 input-group">
+          <p class="text-base font-medium leading-none text-slate-800">
+            Password
+          </p>
+
+          <div class="flex items-center mt-2 border rounded border-slate-300">
+            <input
+              type="password"
+              name=""
+              id="password"
+              class="w-full p-4 rounded outline-none placeholder:text-base placeholder:text-slate-600 focus:bg-gray-50"
+              value=""
+              placeholder=""
+            />
+            <div class="hidden cursor-pointer div" id="openeyesvg">
+              <svg
+                width="24"
+                class="ml-2 mr-4"
+                height="16"
+                viewBox="0 0 24 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M18.5072 2.61781C16.4578 1.2125 14.2645 0.5 11.9887 0.5C9.94078 0.5 7.94438 1.10937 6.05484 2.30375C4.14937 3.51078 2.28141 5.70312 0.75 8C1.98844 10.0625 3.6825 12.1831 5.44687 13.3991C7.47094 14.7931 9.67172 15.5 11.9887 15.5C14.2856 15.5 16.4817 14.7936 18.5184 13.4005C20.3114 12.1719 22.0177 10.0541 23.25 8C22.0134 5.96422 20.3016 3.84875 18.5072 2.61781ZM12 12.5C11.11 12.5 10.24 12.2361 9.49993 11.7416C8.75991 11.2471 8.18314 10.5443 7.84254 9.72208C7.50195 8.89981 7.41283 7.99501 7.58647 7.12209C7.7601 6.24918 8.18868 5.44736 8.81802 4.81802C9.44736 4.18868 10.2492 3.7601 11.1221 3.58647C11.995 3.41283 12.8998 3.50195 13.7221 3.84254C14.5443 4.18314 15.2471 4.75991 15.7416 5.49993C16.2361 6.23995 16.5 7.10998 16.5 8C16.4986 9.19306 16.0241 10.3369 15.1805 11.1805C14.3369 12.0241 13.1931 12.4986 12 12.5Z"
+                  fill="#475569"
+                />
+              </svg>
+            </div>
+            <div class="cursor-pointer div" id="closeeyesvg">
+              <svg
+                class="ml-2 mr-4"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.2501 21.0001C20.1516 21.0003 20.054 20.9809 19.963 20.9432C19.872 20.9054 19.7894 20.8501 19.7199 20.7803L3.21994 4.28025C3.08522 4.13845 3.01123 3.94964 3.01373 3.75407C3.01624 3.5585 3.09504 3.37164 3.23334 3.23334C3.37164 3.09504 3.5585 3.01624 3.75407 3.01373C3.94964 3.01123 4.13845 3.08522 4.28025 3.21994L20.7803 19.7199C20.8851 19.8248 20.9564 19.9584 20.9854 20.1039C21.0143 20.2493 20.9994 20.4001 20.9427 20.5371C20.8859 20.6741 20.7899 20.7912 20.6666 20.8736C20.5433 20.956 20.3984 21 20.2501 21.0001Z"
+                  fill="#475569"
+                />
+                <path
+                  d="M11.984 18.0002C10.0392 18.0002 8.16371 17.4245 6.40965 16.2892C4.81261 15.258 3.37496 13.7809 2.25183 12.0236V12.0198C3.18652 10.6806 4.21027 9.54812 5.30996 8.635C5.31991 8.62668 5.32802 8.61639 5.33379 8.60478C5.33956 8.59317 5.34285 8.58048 5.34347 8.56753C5.34409 8.55458 5.34201 8.54164 5.33737 8.52953C5.33273 8.51742 5.32563 8.50641 5.31652 8.49719L4.38277 7.56484C4.36618 7.54811 4.34389 7.53824 4.32035 7.5372C4.29682 7.53616 4.27375 7.54402 4.25574 7.55922C3.08761 8.54359 2.0034 9.75109 1.01761 11.1648C0.848014 11.4083 0.754608 11.6966 0.749266 11.9932C0.743924 12.2899 0.826888 12.5814 0.987615 12.8308C2.22558 14.7681 3.81886 16.3998 5.59449 17.5487C7.59371 18.8439 9.74527 19.5002 11.984 19.5002C13.1924 19.4964 14.3923 19.2973 15.5371 18.9105C15.5522 18.9053 15.5658 18.8965 15.5765 18.8846C15.5872 18.8728 15.5947 18.8585 15.5983 18.8429C15.602 18.8274 15.6015 18.8112 15.5972 18.7959C15.5928 18.7805 15.5845 18.7666 15.5732 18.7553L14.5617 17.7437C14.5384 17.721 14.5096 17.7048 14.4781 17.6965C14.4466 17.6883 14.4136 17.6884 14.3821 17.6969C13.5987 17.8986 12.793 18.0005 11.984 18.0002Z"
+                  fill="#475569"
+                />
+                <path
+                  d="M23.0086 11.1844C21.7683 9.26625 20.1591 7.63688 18.3553 6.47203C16.3599 5.18203 14.1567 4.5 11.9845 4.5C10.7889 4.50212 9.60221 4.70543 8.47407 5.10141C8.45904 5.10664 8.44559 5.11561 8.43498 5.12747C8.42438 5.13934 8.41697 5.15371 8.41345 5.16923C8.40993 5.18475 8.41043 5.20091 8.41488 5.21619C8.41934 5.23147 8.42761 5.24536 8.43892 5.25656L9.44907 6.26672C9.47259 6.28984 9.50178 6.30634 9.53372 6.31457C9.56565 6.3228 9.59919 6.32246 9.63095 6.31359C10.3983 6.10602 11.1896 6.00058 11.9845 6C13.8919 6 15.7617 6.58266 17.5416 7.73438C19.1686 8.78438 20.6231 10.26 21.7491 12C21.7499 12.0011 21.7504 12.0024 21.7504 12.0037C21.7504 12.0051 21.7499 12.0064 21.7491 12.0075C20.9318 13.2942 19.9175 14.4446 18.7434 15.4167C18.7334 15.425 18.7252 15.4353 18.7193 15.4469C18.7135 15.4586 18.7101 15.4713 18.7094 15.4843C18.7088 15.4973 18.7108 15.5103 18.7155 15.5225C18.7201 15.5347 18.7273 15.5457 18.7364 15.555L19.6692 16.4873C19.6857 16.504 19.7079 16.5139 19.7313 16.515C19.7548 16.5161 19.7778 16.5084 19.7958 16.4934C21.0492 15.4381 22.1342 14.1975 23.0133 12.8147C23.1687 12.571 23.2508 12.2878 23.25 11.9988C23.2492 11.7098 23.1654 11.4272 23.0086 11.1844Z"
+                  fill="#475569"
+                />
+                <path
+                  d="M12.0002 7.5C11.6632 7.49982 11.3271 7.53756 10.9985 7.6125C10.9819 7.61595 10.9666 7.62383 10.9541 7.63531C10.9416 7.64679 10.9325 7.66144 10.9277 7.6777C10.9229 7.69395 10.9226 7.71121 10.9268 7.72763C10.931 7.74405 10.9396 7.75901 10.9516 7.77094L16.2293 13.0472C16.2412 13.0592 16.2562 13.0678 16.2726 13.072C16.289 13.0763 16.3063 13.076 16.3225 13.0711C16.3388 13.0663 16.3535 13.0572 16.3649 13.0447C16.3764 13.0323 16.3843 13.0169 16.3877 13.0003C16.538 12.3413 16.5379 11.6568 16.3873 10.9979C16.2368 10.3389 15.9397 9.72227 15.5182 9.19385C15.0967 8.66542 14.5615 8.23874 13.9525 7.9455C13.3435 7.65226 12.6762 7.49999 12.0002 7.5Z"
+                  fill="#475569"
+                />
+                <path
+                  d="M7.77091 10.9536C7.75899 10.9415 7.74402 10.933 7.7276 10.9287C7.71118 10.9245 7.69392 10.9248 7.67767 10.9296C7.66141 10.9344 7.64676 10.9436 7.63528 10.956C7.6238 10.9685 7.61592 10.9839 7.61247 11.0005C7.44248 11.7431 7.46382 12.5168 7.67451 13.249C7.88519 13.9811 8.27832 14.6478 8.81704 15.1865C9.35577 15.7252 10.0225 16.1184 10.7546 16.3291C11.4868 16.5397 12.2604 16.5611 13.0031 16.3911C13.0197 16.3876 13.0351 16.3798 13.0475 16.3683C13.06 16.3568 13.0691 16.3422 13.0739 16.3259C13.0788 16.3096 13.0791 16.2924 13.0748 16.276C13.0706 16.2595 13.062 16.2446 13.05 16.2327L7.77091 10.9536Z"
+                  fill="#475569"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="flex mt-4">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.6631 3.17075C11.8449 3.32986 11.8634 3.60626 11.7043 3.7881L5.57925 10.7881C5.49952 10.8792 5.38558 10.9332 5.26456 10.9373C5.14354 10.9413 5.02626 10.895 4.94064 10.8094L2.31564 8.18436C2.14479 8.01351 2.14479 7.7365 2.31564 7.56565C2.4865 7.39479 2.7635 7.39479 2.93436 7.56565L5.22869 9.85998L11.0457 3.21191C11.2049 3.03007 11.4813 3.01164 11.6631 3.17075Z"
+              fill="#16A34A"
+            />
+          </svg>
+
+          <p class="pl-2 text-sm leading-none text-slate-600">
+            Use 8 or more characters
+          </p>
+        </div>
+        <div class="flex mt-4">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.6631 3.17075C11.8449 3.32986 11.8634 3.60626 11.7043 3.7881L5.57925 10.7881C5.49952 10.8792 5.38558 10.9332 5.26456 10.9373C5.14354 10.9413 5.02626 10.895 4.94064 10.8094L2.31564 8.18436C2.14479 8.01351 2.14479 7.7365 2.31564 7.56565C2.4865 7.39479 2.7635 7.39479 2.93436 7.56565L5.22869 9.85998L11.0457 3.21191C11.2049 3.03007 11.4813 3.01164 11.6631 3.17075Z"
+              fill="#16A34A"
+            />
+          </svg>
+
+          <p class="pl-2 text-sm leading-none text-slate-600">
+            Use letters, numbers and symbols
+          </p>
+        </div>
+        <div class="mt-6 input-group">
+          <p class="text-base font-medium leading-none text-slate-800">
+            Confirm Password
+          </p>
+
+          <div class="flex items-center mt-2 border rounded border-slate-300">
+            <input
+              type="password"
+              name=""
+              id="password"
+              class="w-full p-4 rounded outline-none placeholder:text-base placeholder:text-slate-600 focus:bg-gray-50"
+              value=""
+              placeholder=""
+            />
+          </div>
+        </div>
+        <div class="flex items-center mt-4">
+          <div class="relative flex">
+            <input
+              type="checkbox"
+              checked
+              name="termsandConditions"
+              class="checkbox rounded-[4px] accent-blue-700 w-5 h-5 cursor-pointer bg-blue-100 appearance-none"
+            />
+            <div
+              class="svgTick cursor-pointer absolute top-[2px] left-[2px] -z-10"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M13.3293 3.62347C13.5371 3.80532 13.5581 4.1212 13.3763 4.32902L6.37629 12.329C6.28516 12.4332 6.15495 12.4949 6.01664 12.4995C5.87833 12.5041 5.7443 12.4512 5.64645 12.3533L2.64645 9.35332C2.45118 9.15805 2.45118 8.84147 2.64645 8.64621C2.84171 8.45095 3.15829 8.45095 3.35355 8.64621L5.97564 11.2683L12.6237 3.67051C12.8056 3.46269 13.1214 3.44163 13.3293 3.62347Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <p class="pl-3 text-sm leading-none">
+            I agree with the
+            <a href="javascript:void(0)" class="text-blue-700"
+              >terms and conditions</a
+            >
+          </p>
+        </div>
+
+        <div class="mt-12 input-group">
+          <button
+            class="w-full py-4 text-base font-medium leading-4 text-center text-white bg-blue-700 rounded hover:bg-blue-600"
+          >
+            Create Account
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/singlecheckboxv2.js"></script>
+    <script>
+      document
+        .getElementById("closeeyesvg")
+        .addEventListener("click", showpassword);
+      document
+        .getElementById("openeyesvg")
+        .addEventListener("click", hidepassword);
+      // console.log(inputfield);
+      function showpassword() {
+        document.getElementById("password").setAttribute("type", "text");
+        document.getElementById("openeyesvg").style.display = "block";
+        document.getElementById("closeeyesvg").style.display = "none";
+      }
+      function hidepassword() {
+        document.getElementById("password").setAttribute("type", "password");
+        document.getElementById("openeyesvg").style.display = "none";
+        document.getElementById("closeeyesvg").style.display = "block";
+      }
+    </script>
+  </body>
+</html>
